@@ -209,7 +209,7 @@ function declaraVencedor(vencedor) {
     if(vencedor == 'x') {
         scoreboardX.textContent = parseInt(scoreboardX.textContent) + 1;
         msg = "O jogador 1 venceu!";
-    } else if(winner == 'y') {
+    } else if(vencedor == 'o') {
         scoreboardO.textContent = parseInt(scoreboardO.textContent) + 1;
         msg = "O jogador 2 venceu!";
     } else {
